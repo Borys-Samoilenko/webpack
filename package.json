@@ -1,0 +1,38 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "webpack config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production",
+    "start": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Borys-Samoilenko/webpack.git"
+  },
+  "keywords": [],
+  "author": "Borys Samoilenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Borys-Samoilenko/webpack/issues"
+  },
+  "homepage": "https://github.com/Borys-Samoilenko/webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^0.11.2",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
